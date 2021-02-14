@@ -1,15 +1,16 @@
-//**************************************************************
+//*************************************************************
 // Written by Steven Smail for COP3331
 //
 // cointoss.cpp (Project 1)
 //
 // This program simulates a coin toss and
 // determines if it is realistic.
-//**************************************************************
+//*************************************************************
 
 #include <iostream>
 #include <cstdlib> //Contains prototypes for functions srand and rand
-#include <ctime> //Needed for time functionusing namespace std;
+#include <ctime> //Needed for time function
+using namespace std;
 
 //Function prototypes
 int toss(void);
